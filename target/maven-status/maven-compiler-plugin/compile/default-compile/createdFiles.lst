@@ -1,0 +1,10 @@
+com/andesfresh/portal/service/ProductoServiceImpl.class
+com/andesfresh/portal/repository/ProductoRepository.class
+com/andesfresh/portal/service/PedidoService.class
+com/andesfresh/portal/entity/Producto.class
+com/andesfresh/portal/entity/DetallePedido.class
+com/andesfresh/portal/entity/Pedido.class
+com/andesfresh/portal/repository/PedidoRepository.class
+com/andesfresh/portal/service/ProductoService.class
+com/andesfresh/portal/dto/LoteProductoForm.class
+com/andesfresh/portal/PortalApplication.class

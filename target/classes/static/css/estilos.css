@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; margin: 0; color: #1B2B6B; }
+main { max-width: 720px; margin: 1.5rem auto; padding: 0 1rem; }
+.menu { background: #1B2B6B; color: #fff; padding: .8rem 1rem; }
+.menu a { color: #fff; margin-left: 1rem; }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+th { background: #1B2B6B; color: #fff; padding: .5rem; text-align: left; }
+td { padding: .4rem; border-bottom: 1px solid #ddd; }
+input { padding: .4rem; }
+button { background: #F7941D; color: #fff; border: 0; padding: .5rem 1rem; }
+.secundario { background: #1B2B6B; }
+.paginas a { margin-right: 1rem; }

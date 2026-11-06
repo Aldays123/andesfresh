@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Productos</title>
+<link rel="stylesheet" th:href="@{/css/estilos.css}"></head>
+<body>
+<nav th:replace="~{menu :: menu}"></nav>
+<main>
+  <h2>Catálogo de productos</h2>
+  <table>
+    <tr><th>Producto</th><th>Precio por kg (S/)</th></tr>
+    <tr th:each="p : ${productos}">
+      <td th:text="${p.nombre}"></td>
+      <td th:text="${p.precio}"></td>
+    </tr>
+  </table>
+</main>
+</body>
+</html>
