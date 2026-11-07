@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Carga por lote</title>
+<link rel="stylesheet" th:href="@{/css/estilos.css}"></head>
+<body>
+<nav th:replace="~{menu :: menu}"></nav>
+<main>
+<h2>Carga por lote</h2>
+<form th:action="@{/productos/lote}" th:object="${lote}" method="post">
+<table>
+<tr><th>Producto</th><th>Precio por kg (S/)</th></tr>
+<tr th:each="producto, i : *{productos}">
+<td><input th:field="*{productos[__${i.index}__].nombre}"/></td>
+<td><input th:field="*{productos[__${i.index}__].precio}"
+type="number" step="0.01" min="0.01"/></td>
+</tr>
+</table>
+<button type="submit">Guardar todos</button>
+</form>
+</main>
+</body>
+</html>
